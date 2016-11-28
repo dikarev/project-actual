@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamPro/GothamPro.eot?") format("eot"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype"), url("../fonts/GothamPro/GothamPro.svg#GothamPro") format("svg"); }
+@font-face {
+  font-family: "GothamPro-Regular";
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?") format("eot"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype"), url("../fonts/GothamProRegular/GothamProRegular.svg#GothamPro-Regular") format("svg"); }
+@font-face {
+  font-family: "GothamPro-Medium";
+  src: url("../fonts/GothamPro-Medium/GothamPro-Medium.eot?") format("eot"), url("../fonts/GothamPro-Medium/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro-Medium/GothamPro-Medium.ttf") format("truetype"), url("../fonts/GothamPro-Medium/GothamPro-Medium.svg#GothamPro-Medium") format("svg"); }
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?") format("eot"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?") format("eot"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype"), url("../fonts/MyriadProRegular/MyriadProRegular.svg#MyriadPro-Regular") format("svg"); }
+.no-gutter > [class*="col-"] {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+/*# sourceMappingURL=app.css--style.map */

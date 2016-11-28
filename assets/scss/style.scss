@@ -1,0 +1,208 @@
+@import "mixins";
+
+@include font-face(GothamPro, GothamPro/GothamPro, null, null, eot woff ttf svg);
+@include font-face(GothamPro-Regular, GothamProRegular/GothamProRegular, null, null, eot woff ttf svg);
+@include font-face(GothamPro-Medium, GothamPro-Medium/GothamPro-Medium, null, null, eot woff ttf svg);
+@include font-face(PlayfairDisplayRegular, PlayfairDisplayRegular/PlayfairDisplayRegular, null, null, eot woff ttf svg);
+@include font-face(MyriadPro-Regular, MyriadProRegular/MyriadProRegular, null, null, eot woff ttf svg);
+
+.no-gutter > [class*="col-"] {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.layout {
+    max-width: 1500px;
+
+    &__screen {
+        background: url(../img/screen/07-uchastnik-full.jpg) no-repeat;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu {
+        background: #ff4727;
+        height: 100%;
+        position: fixed;
+        text-align: center;
+        z-index: 100;
+        width: 110px;
+        color: #fff;
+
+        .icon {
+            margin-top: 20px;
+        }
+
+        .menu-button {
+            margin-top: 100px;
+
+            .rotatable{
+                font-size: 56px;
+                margin-top: 120px;
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+            }
+        }
+    }
+
+    &__content {
+        padding-left: 110px;
+    }
+
+    .header {
+        background-image: url(../img/header.png);
+        padding: 5px 0 10px 0;
+        text-align: center;
+
+        .logo {
+            margin-left: 28px;
+            letter-spacing: 0.99px;
+            line-height: 1;
+
+            .logo-text {
+                color: #23222e;
+                font-family: MyriadPro-Regular;
+                font-size: 19px;
+                font-weight: bold;
+                line-height: 0.9;
+                padding: 2px 0 0 4px;
+            }
+        }
+
+        .sponsor {
+            font-family: GothamPro-Regular;
+            font-size: 14px;
+            margin: 22px 0 0 22px;
+            max-width: 200px;
+
+            .sponsor-name {
+                line-height: 1.1;
+            }
+
+            > a {
+                color: #23222e;
+                text-decoration: underline;
+            }
+        }
+
+        .social {
+            margin-top: 12px;
+            margin-left: -14px;
+
+            .social__button {
+                border: 3px solid transparent;
+                height: 60px;
+                margin:  0 -2px;
+                max-width: 65px;
+                padding: 5px 2px 0 0;
+                text-align: center;
+            }
+
+            .fa {
+                font-size: 37px;
+                padding: 5px 0;
+            }
+
+            .social__button:hover {
+                border: 3px solid #ff4727;
+                color: #ff4727;
+                height: 60px;
+                margin-left: -2px;
+                width: 65px;
+            }
+        }
+
+        .call {
+            margin-left: 13px;
+            max-width: 226px;
+
+            .call-namber {
+                background: #ff4727;
+                color: #fff;
+                font-family: GothamPro-Medium;
+                font-size: 18px;
+                line-height: 1.1;
+                margin-top: 12px;
+                padding: 15px 0;
+                text-align: center;
+
+                .call-info {
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+    .content {
+
+        .block-workin {
+            margin: 67px 0 0 85px;
+        }
+
+        .voting {
+            margin-top: 25px;
+            padding-bottom: 50px;
+            > p {
+                color: #ff4727;
+                font-family: GothamPro;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+        .consist {
+            margin: 60px 0 0 11px;
+            font-size: 24px;
+
+            > a {
+                color: #23222e;
+                font-family: PlayfairDisplayRegular;
+                text-decoration: underline;
+            }
+        }
+
+        .name {
+            font-size: 48px;
+            margin: 74px 0 0 12px;
+            font-family: PlayfairDisplayRegular;
+            line-height: 1.2;
+            max-width: 705px;
+
+            .profession {
+                font-family: GothamProRegular;
+                font-size: 31px;
+                margin-top: 15px;
+                letter-spacing: -0.2px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 641px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 861px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1076px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1374px;
+    }
+}
